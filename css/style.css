@@ -1,0 +1,285 @@
+#page {
+	font-family: "Times New Roman", Times, serif;
+	background: white;
+}
+
+#header {
+	/*background: url('../images/ut Bank.jpg');*/
+	background: #ff0d01;
+	/*background:white;*/
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+	height: 60px;
+	width: 320px;
+	border: none;
+}
+
+#splashheader {
+	background: url('../images/ecobank2.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0px;
+	z-index: 999;
+	height: 50px;
+	width: 120%;
+}
+
+#lblLogon {
+	border-radius: 5px 5px 0px 0px;
+	height: 30px;
+	color: white;
+	width: 100%;
+	font-size: 15px;
+	/*background: url('../images/ut log.png');*/
+	background: #ff0d01;
+	background-size: 100%;
+	padding-top: 7px;
+	/*padding-bottom: 7px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: small;
+	/*text-align: right;*/
+}
+
+#lblLogon1 {
+	border-radius: 5px 5px 0px 0px;
+	height: 30px;
+	color: white;
+	width: 100%;
+	font-size: 15px;
+	/*background: url('../images/uttranfer.png');*/
+	background: #bfd630;
+	background-size: 100%;
+	padding-top: 7px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: small;
+}
+
+#frmLogon {
+	border: 1px solid rgb(197,199,199);
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+#ctnLogon {
+	text-align: center;
+	margin: 0px auto;
+}
+
+#content {
+}
+
+input {
+	height: 25px;
+	border-radius: 30px 2px 0px 20px;
+}
+#lower {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	height: auto;
+	z-index: 999;
+}
+
+.btnLogon {
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border: 1px solid rgb(197,199,199);
+	border-radius: 7px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: medium;
+	cursor: pointer;
+	background-image: linear-gradient(bottom, rgb(5,5,5) 26%, rgb(66,66,66) 71%, rgb(31,30,31) 53%);
+	background-image: -o-linear-gradient(bottom, rgb(5,5,5) 26%, rgb(66,66,66) 71%, rgb(31,30,31) 53%);
+	background-image: -moz-linear-gradient(bottom, rgb(5,5,5) 26%, rgb(66,66,66) 71%, rgb(31,30,31) 53%);
+	background-image: -webkit-linear-gradient(bottom, rgb(5,5,5) 26%, rgb(66,66,66) 71%, rgb(31,30,31) 53%);
+	background-image: -ms-linear-gradient(bottom, rgb(5,5,5) 26%, rgb(66,66,66) 71%, rgb(31,30,31) 53%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.26, rgb(5,5,5)),
+	color-stop(0.71, rgb(66,66,66)),
+	color-stop(0.53, rgb(31,30,31))
+	);
+}
+img {
+	width: 100%;
+	margin-top: 5px;
+}
+table {
+	margin: 0px auto;
+	text-align: left;
+}
+p {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: smaller;
+}
+#splash {
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#indexfooter {
+	background: url('../images/background.gif');
+	display: none;
+}
+
+#indexpage {
+	background: url('../images/background.gif');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*background: red;*/
+}
+
+#splash {
+	display: non;
+}
+
+.btnSub {
+	margin: 10px;
+	padding-bottom: 13px;
+	padding-top: 13px;
+	padding-left: 15px;
+	border: 1px solid rgb(197,199,199);
+	border-radius: 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: smaller;
+	cursor: pointer;
+	background-image: linear-gradient(bottom, rgb(240,240,240) 42%, rgb(237,237,237) 71%, rgb(197,199,199) 53%);
+	background-image: -o-linear-gradient(bottom, rgb(240,240,240) 42%, rgb(237,237,237) 71%, rgb(197,199,199) 53%);
+	background-image: -moz-linear-gradient(bottom, rgb(240,240,240) 42%, rgb(237,237,237) 71%, rgb(197,199,199) 53%);
+	background-image: -webkit-linear-gradient(bottom, rgb(240,240,240) 42%, rgb(237,237,237) 71%, rgb(197,199,199) 53%);
+	background-image: -ms-linear-gradient(bottom, rgb(240,240,240) 42%, rgb(237,237,237) 71%, rgb(197,199,199) 53%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.42, rgb(240,240,240)),
+	color-stop(0.71, rgb(237,237,237)),
+	color-stop(0.53, rgb(197,199,199))
+	);
+}
+
+.btnSubBtn {
+	margin: 10px 100px 10px 100px;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid rgb(197,199,199);
+	border-radius: 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: smaller;
+	cursor: pointer;
+	background-image: linear-gradient(bottom, rgb(240,240,240) 42%, rgb(237,237,237) 71%, rgb(197,199,199) 53%);
+	background-image: -o-linear-gradient(bottom, rgb(240,240,240) 42%, rgb(237,237,237) 71%, rgb(197,199,199) 53%);
+	background-image: -moz-linear-gradient(bottom, rgb(240,240,240) 42%, rgb(237,237,237) 71%, rgb(197,199,199) 53%);
+	background-image: -webkit-linear-gradient(bottom, rgb(240,240,240) 42%, rgb(237,237,237) 71%, rgb(197,199,199) 53%);
+	background-image: -ms-linear-gradient(bottom, rgb(240,240,240) 42%, rgb(237,237,237) 71%, rgb(197,199,199) 53%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.42, rgb(240,240,240)),
+	color-stop(0.71, rgb(237,237,237)),
+	color-stop(0.53, rgb(197,199,199))
+	);
+}
+
+.btnCancel {
+	margin: 10px 100px 10px 100px;
+	padding: 5px;
+	text-align: center;
+	border: 1px solid rgb(197,199,199);
+	border-radius: 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: smaller;
+	cursor: pointer;
+	color: white;
+	background-image: linear-gradient(bottom, rgb(250,108,108) 19%, rgb(158,37,71) 60%, rgb(255,110,110) 80%);
+	background-image: -o-linear-gradient(bottom, rgb(250,108,108) 19%, rgb(158,37,71) 60%, rgb(255,110,110) 80%);
+	background-image: -moz-linear-gradient(bottom, rgb(250,108,108) 19%, rgb(158,37,71) 60%, rgb(255,110,110) 80%);
+	background-image: -webkit-linear-gradient(bottom, rgb(250,108,108) 19%, rgb(158,37,71) 60%, rgb(255,110,110) 80%);
+	background-image: -ms-linear-gradient(bottom, rgb(250,108,108) 19%, rgb(158,37,71) 60%, rgb(255,110,110) 80%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.19, rgb(250,108,108)),
+	color-stop(0.6, rgb(158,37,71)),
+	color-stop(0.8, rgb(255,110,110))
+	);
+}
+
+.btnHeads {
+	margin-bottom: 5px;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	padding-left: 10px;
+	border: 1px solid rgb(197,199,199);
+	border-radius: 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: medium;
+	cursor: pointer;
+	text-align: left;
+	background-image: linear-gradient(bottom, rgb(219,215,219) 26%, rgb(242,242,242) 71%, rgb(178,181,184) 53%);
+	background-image: -o-linear-gradient(bottom, rgb(219,215,219) 26%, rgb(242,242,242) 71%, rgb(178,181,184) 53%);
+	background-image: -moz-linear-gradient(bottom, rgb(219,215,219) 26%, rgb(242,242,242) 71%, rgb(178,181,184) 53%);
+	background-image: -webkit-linear-gradient(bottom, rgb(219,215,219) 26%, rgb(242,242,242) 71%, rgb(178,181,184) 53%);
+	background-image: -ms-linear-gradient(bottom, rgb(219,215,219) 26%, rgb(242,242,242) 71%, rgb(178,181,184) 53%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.26, rgb(219,215,219)),
+	color-stop(0.71, rgb(242,242,242)),
+	color-stop(0.53, rgb(178,181,184))
+	);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#footer, #indexfooter {
+	width: 100%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	/*position: fixed;
+	 bottom: 0px;*/
+	height: 50px;
+	z-index: 999;
+	/*background: url('../images/back.PNG');*/
+	background: #ff0d01;
+	border: none;
+	/*background-size: 100%;*/
+}
+#splashfooter {
+	width: 100%;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	height: 10px;
+	z-index: 999;
+	background: url('../images/ecobank2.png');
+	background-size: 100%;
+}
